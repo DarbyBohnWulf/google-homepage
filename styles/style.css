@@ -1,32 +1,55 @@
 /*init*/
-html {font-family: arial, sans-serif}
+html {font-family: arial, sans-serif;}
+/** {border: 1px solid #000;}*/
 
 #navbar {
-  padding: 0;
-  margin: 0;
-  display: inline;
-
+  position: absolute;
+  right: 40px;
 }
-#name, #gmail, #images {
-  display: inline-block;
+
+#words {
   font-size: .88em;
 }
 
-#navbar p {
+#name p {
+  color: #6sud266;
+  vertical-align: middle;
+}
 
+#navbar div div, #navbar div {
+  display: inline-block;
+}
+
+#profile a img {
+  border-radius: 16px;
 }
 
 #gmail a,#images a {
   text-decoration: none;
-  color: #000
+  color: #000;
 }
 #gmail a:hover,#images a:hover {
   text-decoration: underline;
 }
 
- #search {
+#search {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
 
- }
+#image {
+  height: 92px;
+  width: 272px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#image img {max-width: 272px}
+
+#search
 
  #footer {
 
